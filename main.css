@@ -1,0 +1,238 @@
+body	{
+	margin: 0px;
+	padding:0px
+}
+.header { 
+border-bottom: 2px solid rgb(200,10,10) 
+	}
+.page {
+	}
+.footer	{
+	
+	}
+.column	{
+	border: ;
+	width: 1000px;
+	margin: 0px auto;
+	
+}
+.page .column	{
+	height:100vh;
+	width:
+	
+}
+#logo-i-social	{
+	display:flex;
+	}
+	#logo-holder img 	{
+		height:50px
+	}
+	
+#logo-holder	{
+	flex-grow:1
+	
+}
+#social-holder	{
+	flex-grow:1;
+	text-align:right;
+	display:
+}
+#social-holder a {
+	text-decoration:none;
+	margin:5px
+	
+}
+
+#social-holder a img {
+	height:24px;
+	width:24px
+	}
+
+#main-menu	{
+	display:flex;
+	}
+#main-menu a	{
+	flex-grow:1;
+	text-align: center;
+	display:block;
+	padding:10px 0;
+	text-decoration:none;
+	color:red;
+	transition: 400ms
+}
+#main-menu a:hover,
+#main-menu a.active	{
+	background: rgb(200,10,10);
+	color:white;
+	}
+	#početna	{
+		text-align:center;
+		color:white;
+		background: url( 'assets/pozadine/srbija.jpg' );
+		background-size:cover;
+		background-attachment: fixed;
+	}
+	#početna h1	{
+		font-size:48pt;
+		margin-top:0px;
+		padding-top:calc(50vh - 250px)
+	}
+	.dark-box	{
+		background-color: rgba(50,50,50,60%);
+		border:1px solid white;
+		font-size:24pt;
+		padding:40px;
+		}
+		
+		#usluge	{
+			background: url( 'assets/pozadine/perućac.jpg' );
+		background-size:cover;
+		background-attachment: fixed;
+			}
+		#karijera	{
+			background: url( 'assets/pozadine/tara.jpg' );
+		background-size:cover;
+		background-attachment: fixed;
+			
+		}
+		
+		
+			
+			.align-center {
+				text-align:center
+			}
+			.krugovi	{ display:flex;
+			margin:70px 0;
+				}
+			.krug-holder	{
+				flex-grow:1;
+				text-align:center;
+	}
+			.krug 	{
+				background: rgb(220,15,15);
+				color:white;
+				font-size:48px;
+				padding:25%;
+				display:inline-block;
+				width:50px;
+				border-radius:50%;
+				height:50px;
+				font-weight:bold
+				}
+				.oznaka 	{
+					margin-top:10px;
+					font-size:24px;
+					font-weight:bold
+	}
+			.tehnologije	{
+				display:flex;
+				margin:40px 0px
+	}
+			.tehnologija	{
+				flex-grow:1;
+				text-align:center;
+	}
+			.tehnologija img	{
+				width:48px;
+				height:48px
+			}
+			.tehnologija p	{
+				font-weight:bold;
+			}
+		
+		
+		#usluge h2 	{
+			padding-top:40px
+		}
+		#usluge {
+			color:white
+		}
+	
+	.service-row	{
+		display:flex;
+		margin:40px;
+		justify-content:space-between
+		
+	}
+	.service-row > div 	{
+		text-align:center;
+		position:relative;
+		width: 300px;
+		height: 150px;
+		border: 1px solid white;
+		
+		
+	}
+	.service-row > div > img	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		}
+		.service-row > div > p 	{
+			position: absolute;
+			left:0px;
+			right:0px;
+			bottom:0px;
+			padding:10px;
+			background-color: rgba(250,250,250,70%);
+			margin-bottom: 0px;
+			color: black;
+			font-weight:bold;
+			border-top: 1px solid white;
+			}
+			
+	#proizvodi h2{
+		padding-top:50px
+	}
+	
+	.matrica {
+			margin-top:40px;
+			height:500px;
+			display:grid;
+			grid-template:	"a b c"
+										"d b e"	
+										"f f g";
+			align-content:space-between;
+			justify-content:space-between;
+			}	
+	
+	#proizvod-a {
+		grid-area: a;
+	}
+	#proizvod-b {
+		grid-area: b;
+	}
+	#proizvod-c {
+		grid-area: c;
+	}
+	#proizvod-d {
+		grid-area: d;
+	}
+	#proizvod-e {
+		grid-area: e;
+	}
+	#proizvod-f {
+		grid-area: f;
+	}
+	#proizvod-g {
+		grid-area: g;
+	}
+	.proizvod {
+		display:grid;
+		grid-template: "region";
+		align-content:stretch;
+		justify-content:stretch;
+		
+	}
+	.proizvod img {
+		grid-area: region;
+		justify-self: stretch;
+		align-self:stretch;
+	}
+	.proizvod span {
+		grid-area: region;
+		justify-self: stretch;
+		align-self:stretch;
+	}
